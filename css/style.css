@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(68, 126, 126);
+}
+h1, h2, h3, h4, h5, h6,p,
+.lesson__list{
+    color: #fff;
+    
+}
+h1 {
+    text-align: center;
+}
+.yellow {
+    color: yellow;
+}
+
+.lesson__text {
+    color:tomato
+}
+.red{ 
+    /* display:block; */
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	width: 150px;
+	height: 100px;
+	font-size: 25px;
+    border-radius: 50%;
+	line-height: 22px;
+	text-align: center;
+	background-color: rgb(155, 10, 10);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 25px;
+	color: #98e0fc;
+	box-shadow: 0 0 8px rgb(56, 241, 0);
+} 
+::marker {
+	color:yellow
+}
